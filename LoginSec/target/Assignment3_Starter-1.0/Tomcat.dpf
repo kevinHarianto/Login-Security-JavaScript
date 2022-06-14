@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Assignment3_Lastnames_WhoCares">
+  <Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" logAbandoned="true" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/java3" password="java3" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/java3" username="java3"/>
+  <Realm className="org.apache.catalina.realm.DataSourceRealm" dataSourceName="jdbc/java3" debug="99" localDataSource="true" roleNameCol="userrole" userCredCol="password" userNameCol="username" userRoleTable="userroletable" userTable="usertable"/>
+</Context>
